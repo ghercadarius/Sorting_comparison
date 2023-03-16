@@ -11,8 +11,21 @@ height = GetSystemMetrics(1)
 def window_exit():
     root.destroy()
 
+def redraw_graph(L, canvas, w, h):
+    canvas.delete("all")
+    L.sort(key = lambda x: x[0])
+    wa = w * 0.001
+    ha = h * 0.999
+    for el in L:
+        nh = h - 0.064 * float(el[1]) * h
+        nw = (0.96 * el[0] * w) / 100000000 #* el[0]* w
+        print(nh, nw)
+        canvas.create_line( wa , ha , nw , nh , fill = "green" , width = 5 )
+        wa = nw
+        ha = nh
+
 def radix_gen(var, infile, exec, outfile) :
-    n = random.randint( 1 , 10 ** 3)
+    n = random.randint( 1 , 10 ** 6)
     if var == "mic":
         x = random.randint( 0 , 2 )
     elif var == "mare":
@@ -42,12 +55,21 @@ def radix_afis_mic_main():
     radix_mic.title("Radix nr mici")
     radix_mic.configure( bg="#C0C0C0" )
     radix_mic.geometry(f"{width}x{height}")
+    radix_mic_gf = Frame( radix_mic )
+    radix_mic_gf.pack( )
+    radix_mic_canvas = tkinter.Canvas( radix_mic_gf , bg="#A9A9A9" , width=0.8 * width , height=0.8 * height )
+    canvw = 0.8 * width
+    canvh = 0.8 * height
+    table = [ ]
+    radix_mic_canvas.create_line( 0.02 * canvw , 0.98 * canvh , 0.9 * canvw , 0.1 * canvh , fill="green" , width=5 )
+    radix_mic_canvas.pack( )
     def radixafis_mic() :
         (radix_time , n , x) = radix_gen("mic", "rsmic.in", "radixsmic.exe", "rsmic.out")
         debug_file = open( "random_tests.txt" , "a" )
         debug_file.write( f"\n{datetime.now( )}\nNumere: {n} de {int( max_value[ x ] )} cifre\nTimp in secunde: {radix_time}\n\n" )
         debug_file.close( )
         radix_mic_label.config( text=f"Numere: {n} de {int( max_value[ x ] )} cifre\nTimp in secunde: {radix_time}" )
+        redraw_graph(table, radix_mic_canvas, canvw, canvh)
         radix_mic_label.after( 100 , radixafis_mic )
 
     radix_mic_label = tkinter.Label( radix_mic , font=("Arial" , int( 0.02 * width )) , background="#C0C0C0" )
@@ -66,7 +88,10 @@ def radix_afis_mare_main():
     radix_mare_gf = Frame( radix_mare )
     radix_mare_gf.pack( )
     radix_mare_canvas = tkinter.Canvas( radix_mare_gf , bg="#A9A9A9" , width = 0.8 * width, height = 0.8 * height)
-    radix_mare_canvas.create_line( 0.1 * width , 0.90 * height , 0.98 * width , 0.90 * height , fill="green" , width=5 )
+    canvw = 0.8 * width
+    canvh = 0.8 * height
+    table = []
+    radix_mare_canvas.create_line( 0.02 * canvw , 0.98 * canvh , 0.9 * canvw , 0.1 * canvh , fill = "green" , width = 5 )
     radix_mare_canvas.pack( )
     def radixafis_mare() :
         (radix_time , n , x) = radix_gen( "mare", "rsmare.in", "radixsmare.exe", "rsmare.out" )
@@ -74,6 +99,8 @@ def radix_afis_mare_main():
         debug_file.write( f"\n{datetime.now( )}\nNumere: {n} de {int( max_value[ x ] )} cifre\nTimp in secunde: {radix_time}\n\n" )
         debug_file.close( )
         radix_mare_label.config( text=f"Numere: {n} de {int( max_value[ x ] )} cifre\nTimp in secunde: {radix_time}" )
+        table.append((n, radix_time))
+        redraw_graph(table, radix_mare_canvas, canvw, canvh)
         radix_mare_label.after( 100 , radixafis_mare)
 
     radix_mare_label = tkinter.Label( radix_mare , font=("Arial" , int( 0.02 * width )) , background="#C0C0C0" )
