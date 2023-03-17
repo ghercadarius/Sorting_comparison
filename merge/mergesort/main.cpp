@@ -7,27 +7,47 @@
 using namespace std;
 using namespace std::chrono;
 
-void radix_sort(vector <unsigned long long> &a){
-    int pwr = 1, maxi=-1;
-    for(auto i:a)
-        maxi = max(maxi, int(i));
-    vector <int> buk[10];
-    while(maxi/pwr != 0){
-        for(auto i:a){
-            int c = (i/pwr)%10;
-            buk[c].push_back(i);
+void interclasare(vector <unsigned long long> &v,long long st,long long dr)
+{
+    vector <unsigned long long> aux(v.size());
+    long long m=(st+dr)/2;
+    long long i=st,j=m+1,k=st;
+    while(i<=m && j<=dr)
+    {
+        if(v[i]<=v[j])
+        {
+            aux[k++]=v[i++];
         }
-        a.clear();
-        for(int i = 0; i <= 9;i++){
-            for(auto j:buk[i]){
-                a.push_back(j);
-            }
-            buk[i].clear();
+        else
+        {
+            aux[k++]=v[j++];
         }
-        pwr = pwr * 10;
+    }
+    while(i<=m)
+    {
+        aux[k++]=v[i++];
+    }
+    while(j<=dr)
+    {
+        aux[k++]=v[j++];
+    }
+    for(k=st;k<=dr;k++)
+    {
+        v[k]=aux[k];
     }
 }
 
+void merge_sort(vector <unsigned long long> &v,long long st,long long dr)
+{
+    if(st==dr)
+    {
+        return;
+    }
+    int m=(st+dr)/2;
+    merge_sort(v,st,m);
+    merge_sort(v,m+1,dr);
+    interclasare(v,st,dr);
+}
 bool verif(vector <unsigned long long> v){
     unsigned long long i = 1;
     while(i < v.size() && v[i-1] <= v[i]){
@@ -66,7 +86,7 @@ int main()
     g<<"err";
     g.close();
     auto start = high_resolution_clock::now();
-    radix_sort(v);
+    merge_sort(v, 0, v.size() - 1);
     auto stop = high_resolution_clock::now();
     g.open(gfile);
     if(!verif(v)){

@@ -7,26 +7,22 @@
 using namespace std;
 using namespace std::chrono;
 
-void radix_sort(vector <unsigned long long> &a){
-    int pwr = 1, maxi=-1;
-    for(auto i:a)
-        maxi = max(maxi, int(i));
-    vector <int> buk[10];
-    while(maxi/pwr != 0){
-        for(auto i:a){
-            int c = (i/pwr)%10;
-            buk[c].push_back(i);
-        }
-        a.clear();
-        for(int i = 0; i <= 9;i++){
-            for(auto j:buk[i]){
-                a.push_back(j);
+void quicks(vector<unsigned long long> &v, long long st, long long dr){
+    if(st<dr){
+        long long i = st - 1, j = st, piv = v[dr];
+        while(j < dr){
+            if(v[j] < piv){
+                i++;
+                swap(v[i], v[j]);
             }
-            buk[i].clear();
+            j++;
         }
-        pwr = pwr * 10;
+        swap(v[dr], v[i+1]);
+        quicks(v, st, i);
+        quicks(v, i+2, dr);
     }
 }
+
 
 bool verif(vector <unsigned long long> v){
     unsigned long long i = 1;
@@ -66,7 +62,7 @@ int main()
     g<<"err";
     g.close();
     auto start = high_resolution_clock::now();
-    radix_sort(v);
+    quicks(v, 0, v.size() - 1);
     auto stop = high_resolution_clock::now();
     g.open(gfile);
     if(!verif(v)){

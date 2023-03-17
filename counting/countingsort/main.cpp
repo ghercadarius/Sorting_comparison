@@ -4,29 +4,33 @@
 #include <chrono>
 #include <stdlib.h>
 #include <cstring>
+#include <map>
 using namespace std;
 using namespace std::chrono;
 
-void radix_sort(vector <unsigned long long> &a){
-    int pwr = 1, maxi=-1;
-    for(auto i:a)
-        maxi = max(maxi, int(i));
-    vector <int> buk[10];
-    while(maxi/pwr != 0){
-        for(auto i:a){
-            int c = (i/pwr)%10;
-            buk[c].push_back(i);
+void count_sort(vector <unsigned long long> &v){
+    unsigned long long maxi = 0;
+    for(auto i:v){
+        if(i > maxi)
+            maxi = i;
+    }
+    //map<unsigned long long, unsigned long long> a;
+    //long long maxi = -1
+    vector<unsigned long long> a(maxi);
+    for(long long i = 0; i < v.size(); i++){
+        a[v[i]]++;
+        if(v[i] > maxi)
+            maxi = v[i];
+    }
+    v.clear();
+    for(long long i = 0; i <= maxi;i++){
+        while(a[i]){
+            v.push_back(i);
+            a[i]--;
         }
-        a.clear();
-        for(int i = 0; i <= 9;i++){
-            for(auto j:buk[i]){
-                a.push_back(j);
-            }
-            buk[i].clear();
-        }
-        pwr = pwr * 10;
     }
 }
+
 
 bool verif(vector <unsigned long long> v){
     unsigned long long i = 1;
@@ -66,7 +70,7 @@ int main()
     g<<"err";
     g.close();
     auto start = high_resolution_clock::now();
-    radix_sort(v);
+    count_sort(v);
     auto stop = high_resolution_clock::now();
     g.open(gfile);
     if(!verif(v)){
