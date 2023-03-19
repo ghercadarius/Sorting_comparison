@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1679258902 source:c:\users\gherc\documents\github\sorting_graphs\bubble\bubblesort\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<chrono>
+	<stdlib.h>
+	<cstring>
+
