@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <cstring>
 #include <map>
+#include <bitset>
 using namespace std;
 using namespace std::chrono;
 
@@ -14,17 +15,17 @@ void count_sort(vector <unsigned long long> &v){
         if(i > maxi)
             maxi = i;
     }
-    //map<unsigned long long, unsigned long long> a;
-    //long long maxi = -1
-    vector<unsigned long long> a(maxi);
-    for(long long i = 0; i < v.size(); i++){
-        a[v[i]]++;
-        if(v[i] > maxi)
-            maxi = v[i];
+    vector<unsigned long long> a;
+    a.reserve(maxi+1);
+    for(int i = 0;i <= maxi; i++)
+        a[i] = 0;
+    int cap = v.size();
+    for(auto i:v){
+        a[i]++;
     }
     v.clear();
-    for(long long i = 0; i <= maxi;i++){
-        while(a[i]){
+    for(unsigned long long i = 0; i <= maxi;i++){
+        while(a[i] > 0){
             v.push_back(i);
             a[i]--;
         }
@@ -63,9 +64,6 @@ int main()
     for(long long i = 1; i <= n; i++){
         v.push_back(rand() % max_number);
     }
-    /*for(auto i:v){
-        cout<<i<<"\n";
-    }*/
     g.open(gfile);
     g<<"err";
     g.close();
