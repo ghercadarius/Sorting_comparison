@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca43e222-af99-4b1a-a9f0-853a3c5e52e0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/bin/Debug/bubblesort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/bubblesort.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/bubblesort.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/countmic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/countmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/file_name.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/bubblesort/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblemic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblemic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubbles.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/bin/Debug/countingsort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/countingsort.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/countingsort.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/countingsort.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/countmare.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/countmare.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/countmic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/countmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/file_name.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counting/countingsort/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countmare.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countmare.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countmic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counts.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_name.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/large_build_sorts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge/mergesort/bin/Debug/mergesort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge/mergesort/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge/mergesort/mergesort.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge/mergesort/mergesort.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge/mergesort/mergesort.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge/mergesort/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merges.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergmic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick/quicksort/bin/Debug/quicksort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick/quicksort/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick/quicksort/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick/quicksort/quicksort.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick/quicksort/quicksort.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickmare.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickmare.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickmic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quicks.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/bin/Debug/nradix_seed.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/nradix_seed.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/nradix_seed.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/nradix_seed.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/rs.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/rs_rez.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/rsmare.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/rsmare.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radix/rsmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radixs.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_tests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rs.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rs_rez.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rsmare.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rsmare.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rsmic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rsmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/shellsort/bin/Debug/shellsort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/shellsort/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/shellsort/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/shellsort/shellsort.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/shellsort/shellsort.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shellmare.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shellmare.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shellmic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shellmic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shells.exe" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O8kavVf929UxNkr59SmIoDfMvl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca43e222-af99-4b1a-a9f0-853a3c5e52e0" name="Changes" comment="" />
+      <created>1680949665155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680949665155</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
