@@ -34672,3 +34672,288 @@ Timp in secunde: 0.058571
 Numere: 455639 de 2 cifre
 Timp in secunde: 0.046046
 
+
+2023-09-25 11:48:10.213270
+Numere: 197121 de 4 cifre
+Timp in secunde: 0.041476
+
+
+2023-09-25 11:48:10.403404
+Numere: 338603 de 2 cifre
+Timp in secunde: 0.038676999999999996
+
+
+2023-09-25 11:48:10.706897
+Numere: 673821 de 1 cifre
+Timp in secunde: 0.083411
+
+
+2023-09-25 11:48:10.891608
+Numere: 283259 de 2 cifre
+Timp in secunde: 0.036018999999999995
+
+
+2023-09-25 11:48:11.136522
+Numere: 536693 de 2 cifre
+Timp in secunde: 0.078553
+
+
+2023-09-25 11:48:11.540168
+Numere: 799870 de 2 cifre
+Timp in secunde: 0.18531899999999998
+
+
+2023-09-25 11:48:11.812704
+Numere: 417418 de 4 cifre
+Timp in secunde: 0.109327
+
+
+2023-09-25 11:48:11.999798
+Numere: 520545 de 1 cifre
+Timp in secunde: 0.033045
+
+
+2023-09-25 11:48:12.226532
+Numere: 588515 de 2 cifre
+Timp in secunde: 0.06416999999999999
+
+
+2023-09-25 11:48:12.496123
+Numere: 756003 de 2 cifre
+Timp in secunde: 0.09866799999999999
+
+
+2023-09-25 11:48:12.736570
+Numere: 337170 de 4 cifre
+Timp in secunde: 0.079002
+
+
+2023-09-25 11:48:13.059737
+Numere: 732378 de 4 cifre
+Timp in secunde: 0.15720099999999998
+
+
+2023-09-25 11:48:13.321760
+Numere: 503667 de 4 cifre
+Timp in secunde: 0.10313
+
+
+2023-09-25 11:48:13.542708
+Numere: 578644 de 1 cifre
+Timp in secunde: 0.033047
+
+
+2023-09-25 11:48:13.700883
+Numere: 120785 de 2 cifre
+Timp in secunde: 0.013056
+
+
+2023-09-25 11:48:13.996797
+Numere: 636287 de 4 cifre
+Timp in secunde: 0.12842199999999998
+
+
+2023-09-25 11:48:14.216932
+Numere: 506818 de 2 cifre
+Timp in secunde: 0.051677999999999995
+
+
+2023-09-25 11:48:14.522054
+Numere: 696977 de 4 cifre
+Timp in secunde: 0.142016
+
+
+2023-09-25 11:48:14.883420
+Numere: 934214 de 4 cifre
+Timp in secunde: 0.188467
+
+
+2023-09-25 11:48:15.096843
+Numere: 340092 de 4 cifre
+Timp in secunde: 0.06713999999999999
+
+
+2023-09-25 11:48:15.358423
+Numere: 841487 de 2 cifre
+Timp in secunde: 0.089059
+
+
+2023-09-25 11:48:16.461807
+Numere: 835586 de 12 cifre
+Timp in secunde: 0.20491099999999998
+
+
+2023-09-25 11:48:16.870035
+Numere: 921035 de 18 cifre
+Timp in secunde: 0.235095
+
+
+2023-09-25 11:48:17.197545
+Numere: 683231 de 12 cifre
+Timp in secunde: 0.16791
+
+
+2023-09-25 11:48:17.481420
+Numere: 550691 de 18 cifre
+Timp in secunde: 0.134728
+
+
+2023-09-25 11:48:20.618754
+Numere: 960600 de 12 cifre
+Timp in secunde: 0.418535
+
+
+2023-09-25 11:48:20.967934
+Numere: 484970 de 6 cifre
+Timp in secunde: 0.19056399999999998
+
+
+2023-09-25 11:48:21.363119
+Numere: 608568 de 15 cifre
+Timp in secunde: 0.24272
+
+
+2023-09-25 11:48:21.799210
+Numere: 682337 de 12 cifre
+Timp in secunde: 0.279991
+
+
+2023-09-25 11:48:21.970945
+Numere: 110267 de 6 cifre
+Timp in secunde: 0.034612
+
+
+2023-09-25 11:48:22.220782
+Numere: 297662 de 18 cifre
+Timp in secunde: 0.10511999999999999
+
+
+2023-09-25 11:48:22.794582
+Numere: 960123 de 18 cifre
+Timp in secunde: 0.404842
+
+
+2023-09-25 11:48:23.479820
+Numere: 983381 de 12 cifre
+Timp in secunde: 0.508937
+
+
+2023-09-25 11:48:23.740923
+Numere: 229477 de 9 cifre
+Timp in secunde: 0.110445
+
+
+2023-09-25 11:48:23.994807
+Numere: 312986 de 6 cifre
+Timp in secunde: 0.110883
+
+
+2023-09-25 11:48:24.503055
+Numere: 804382 de 15 cifre
+Timp in secunde: 0.335918
+
+
+2023-09-25 11:48:36.921922
+Numere: 741592 de 15 cifre
+Timp in secunde: 0.135609
+
+
+2023-09-25 11:48:37.129154
+Numere: 338752 de 9 cifre
+Timp in secunde: 0.058565
+
+
+2023-09-25 11:48:37.430081
+Numere: 711536 de 9 cifre
+Timp in secunde: 0.131018
+
+
+2023-09-25 11:48:37.610041
+Numere: 186863 de 15 cifre
+Timp in secunde: 0.031849999999999996
+
+
+2023-09-25 11:48:37.907563
+Numere: 747732 de 12 cifre
+Timp in secunde: 0.143986
+
+
+2023-09-25 11:48:38.097624
+Numere: 294689 de 12 cifre
+Timp in secunde: 0.049766
+
+
+2023-09-25 11:48:38.420675
+Numere: 792445 de 18 cifre
+Timp in secunde: 0.16222599999999998
+
+
+2023-09-25 11:48:38.651478
+Numere: 426240 de 15 cifre
+Timp in secunde: 0.073223
+
+
+2023-09-25 11:48:38.940646
+Numere: 702539 de 12 cifre
+Timp in secunde: 0.13580899999999999
+
+
+2023-09-25 11:48:39.234823
+Numere: 713900 de 6 cifre
+Timp in secunde: 0.133036
+
+
+2023-09-25 11:48:39.612945
+Numere: 993650 de 6 cifre
+Timp in secunde: 0.20108299999999998
+
+
+2023-09-25 11:48:44.280558
+Numere: 807661 de 1 cifre
+Timp in secunde: err
+
+
+2023-09-25 11:48:44.628226
+Numere: 788898 de 4 cifre
+Timp in secunde: 0.178501
+
+
+2023-09-25 11:48:44.936646
+Numere: 700147 de 4 cifre
+Timp in secunde: 0.150496
+
+
+2023-09-25 11:48:45.145870
+Numere: 28598 de 1 cifre
+Timp in secunde: 0.07019399999999999
+
+
+2023-09-25 11:48:45.426168
+Numere: 590999 de 4 cifre
+Timp in secunde: 0.124429
+
+
+2023-09-25 11:48:45.814737
+Numere: 925788 de 4 cifre
+Timp in secunde: 0.216692
+
+
+2023-09-25 11:48:46.102502
+Numere: 662511 de 4 cifre
+Timp in secunde: 0.136569
+
+
+2023-09-25 11:48:49.194572
+Numere: 551716 de 1 cifre
+Timp in secunde: err
+
+
+2023-09-25 11:48:49.546999
+Numere: 855909 de 4 cifre
+Timp in secunde: 0.192417
+
+
+2023-09-25 11:48:52.574077
+Numere: 531370 de 1 cifre
+Timp in secunde: err
+
