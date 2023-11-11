@@ -7,19 +7,41 @@ font_name = ["Arial"]
 max_value = [1, 2, 4, 6, 9, 12, 15, 18] # for each x from max_value -> max_num = 1ex ( 10 ^ x)
 width = int(GetSystemMetrics(0) * 0.8)
 height = int(GetSystemMetrics(1) * 0.8)
+h_ratio = height / (10 ** 2)
+w_ratio = width / (10 ** 7)
 # width and length scaled down to 0.8
 def window_exit():
     root.destroy() # close the root window and main program
 
+def redraw_graph(L, canvas, w, h):
+    # x[0] number of numbers x[1] runtime
+    canvas.delete("all")
+    # sort points based on runtime
+    L.sort(key = lambda x: x[0])
+    # base x coordonate for line - numbers
+    wa = w * 0.001
+    # base y coordonate for line - runtime
+    ha = h * 0.999
+    for el in L:
+        # process the new y for line based on nr of numbers
+        # nh = h - (0.064 * float(el[1] / ) * h)
+        nw = (float(el[0])) * w_ratio
+        nh = h - float(el[1]) * h_ratio  # * el[0]* w
+        print("COORD: ", nh, nw, " TIME: ", el[1])
+        canvas.create_line(wa, ha, nw, nh, fill = "green", width = 5)
+        wa = nw
+        ha = nh
+
+
 def file_gen(type, sort_name) :
     # in the main folder will be folder with main for each sort
     # for each sort i will give in infile number of numbers
-    os.chdir(f"{sort_name}/cmake-build-debug")
+    os.chdir(f"{sort_name}/cmake-build-release")
     # change directory to executable of sorting method
 
     seconds = int(time.time() * 1000)
-    # generate seed for random numbers
-    n = random.randint(1, 10 ** 6)
+    # generate seed for random numbers based on seconds
+    n = random.randint(1, 10 ** 5)
     # number of numbers
     if type == "small":
         x = random.randint(0, 2)
@@ -27,23 +49,20 @@ def file_gen(type, sort_name) :
         x = random.randint(3, 7)
     # x is maximum number
     #os.system(f"{sort_name}.exe {seconds} {n} {x}")
-    subprocess.run([f"{sort_name}.exe", str(seconds), str(n), str(x)])
+    # call example: bubble.exe 218379324 1000 10
+    max_number = 10 ** (max_value[x])
+    subprocess.run([f"{sort_name}.exe", str(seconds), str(n), str(max_number)])
     # run sort
     output = open("output.out", "r")
-    runtime = output.readline()
     # read runtime
-    print(seconds, n, x)
-    print("@")
+    runtime = output.readline()
     print(runtime)
-    print("@")
-    # if runtime != "init" and runtime != "err":
-    #     runtime = str(float(runtime) * (10 ** (-6)))
-    # else:
-    #     print("@")
+    # convert to seconds
+    runtime = str(float(runtime) * (10 ** (-6)))
     output.close()
-
     os.chdir(os.path.dirname(os.path.dirname(os.getcwd())))
     #change back to root directory
+    return (runtime, n, x)
 
 
 def sort_table(sort_name, sort_type):
@@ -53,17 +72,35 @@ def sort_table(sort_name, sort_type):
     sort_tab.geometry(f"{width}x{height}")
     sort_tab_gf = Frame(sort_tab) # insert a frame in the tab
     sort_tab_gf.pack() # display the frame
-    small_sort_canvas = tkinter.Canvas(sort_tab_gf, bg = bg_colors[2], width = 0.8 * width, height = 0.8 * height)
+    sort_canvas = tkinter.Canvas(sort_tab_gf, bg = bg_colors[2], width = 0.8 * width, height = 0.8 * height)
     # create the drawing zone from the graph with a canvas
     canvw = 0.8 * width # set the width
     canvh = 0.8 * height # and the height
     table = []
-    small_sort_canvas.create_line(0.02 * canvw, 0.98 * canvh, 0.9 * canvw, 0.1 * canvh, fill = "green", width = 5)
+    sort_canvas.create_line(0.02 * canvw, 0.98 * canvh, 0.9 * canvw, 0.1 * canvh, fill = "green", width = 5)
     # create the first line to modify
-    small_sort_canvas.pack() # draw the line
-    (timp, numere, maxim) = file_gen("small", sort_name)
-    #DE RESCRIS file_gen pentru a compila codul sursa al lui sort_name si de scris file_gen de la 0
-    #DE RESCRIS redraw_graph pentru a repara erorile din trecut
+    sort_canvas.pack() # draw the line
+    def sort_draw(): # function to redraw
+        # get runtime for a small type sort
+        (time, numbers, digit_nr) = file_gen("small", sort_name)
+        # write in window results
+        sort_label.config(text = f"Numbers: {numbers} of {max_value[digit_nr]} digits\nTime in seconds: {time}")
+        # add number of numbers and time in draw table to be redrawn
+        table.append((numbers, time))
+        # redraw table
+        redraw_graph(table, sort_canvas, canvw, canvh)
+        # repeat
+        sort_label.after(100, sort_draw)
+
+    # create text label to write results
+    sort_label = tkinter.Label(sort_tab, font = (font_name[0], int(0.02 * width)), background = bg_colors[0])
+    # create exit button
+    sort_exit = Button(sort_tab, text = "Exit", command = sort_tab.destroy, width = int(0.005 * width), height = int(0.003 * height), background = bg_colors[1], font = (font_name[0], int(0.01 * width)))
+    sort_exit.place(x = width - 0.07 * width, y = 0.05 * height)
+    sort_label.pack()
+    sort_draw()
+    sort_tab.mainloop()
+
 
 def mainsort(sort_name):
     sort_img = Tk() # create new window
@@ -82,9 +119,6 @@ def mainsort(sort_name):
                     height = int(0.003 * height), background = bg_colors[1], font = (font_name[0], int(0.012 * width)))
     # create button for exit
     sort_img.mainloop()
-
-def bubbleS():
-    mainsort("bubble")
 
 root = Tk() # create root window
 root.title("Sorting Methods") # name it
@@ -108,6 +142,6 @@ exit.place( x = width - 0.07 * width, y = 0.05 * height) # place exit button
 # btn_quick.place( x = 0.5 * width , y = 0.2 * height )
 # btn_counting = Button( root , text="Counting Sort" , command = countS , font = ("Arial", int(0.012 * width)))
 # btn_counting.place( x = 0.65 * width , y = 0.2 * height )
-btn_bubble = Button( root , text="Bubble Sort" , command = bubbleS , font = ("Arial", int(0.012 * width)))
+btn_bubble = Button( root , text="Bubble Sort" , command = lambda: mainsort("bubble") , font = ("Arial", int(0.012 * width)))
 btn_bubble.place( x = 0.8 * width , y = 0.2 * height )
 root.mainloop() # repeat until window_exit

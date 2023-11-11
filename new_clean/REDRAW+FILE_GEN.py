@@ -48,3 +48,7 @@ def file_gen(var, infile, exec, outfile) :
         run_time = str( float( run_time ) * (10 ** (-6)) )
     ofile.close( )
     return (run_time , n , x)
+
+#EXEMPLU APEL
+#(timp, numere, maxim) = file_gen("mic", 
+#    nume_sortare + tip_sortare + ".in", nume_sortare)
