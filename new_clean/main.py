@@ -26,7 +26,7 @@ def redraw_graph(L, canvas, w, h):
         # process the new y for line based on nr of numbers
         # nh = h - (0.064 * float(el[1] / ) * h)
         nw = (float(el[0])) * w_ratio
-        nh = h - float(el[1]) * h_ratio  # * el[0]* w
+        nh = h - (float(el[1]) * 10 * h_ratio)  # * el[0]* w
         print("COORD: ", nh, nw, " TIME: ", el[1])
         canvas.create_line(wa, ha, nw, nh, fill = "green", width = 5)
         wa = nw
@@ -41,7 +41,7 @@ def file_gen(type, sort_name) :
 
     seconds = int(time.time() * 1000)
     # generate seed for random numbers based on seconds
-    n = random.randint(1, 10 ** 5)
+    n = random.randint(1, 10 ** 8)
     # number of numbers
     if type == "small":
         x = random.randint(0, 2)
@@ -140,8 +140,8 @@ exit.place( x = width - 0.07 * width, y = 0.05 * height) # place exit button
 # btn_shell.place( x = 0.35 * width , y = 0.2 * height )
 # btn_quick = Button( root , text="Quick Sort" , command = quickS , font = ("Arial", int(0.012 * width)))
 # btn_quick.place( x = 0.5 * width , y = 0.2 * height )
-# btn_counting = Button( root , text="Counting Sort" , command = countS , font = ("Arial", int(0.012 * width)))
-# btn_counting.place( x = 0.65 * width , y = 0.2 * height )
+btn_counting = Button( root , text="Counting Sort" , command = lambda: mainsort("counting") , font = ("Arial", int(0.012 * width)))
+btn_counting.place( x = 0.65 * width , y = 0.2 * height )
 btn_bubble = Button( root , text="Bubble Sort" , command = lambda: mainsort("bubble") , font = ("Arial", int(0.012 * width)))
 btn_bubble.place( x = 0.8 * width , y = 0.2 * height )
 root.mainloop() # repeat until window_exit
