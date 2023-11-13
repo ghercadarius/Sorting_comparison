@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "counting",
+					"name" : "merge",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "counting::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-counting-Debug-cc5ce9b932dfc0cb85aa.json",
-					"name" : "counting",
+					"id" : "merge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-merge-Release-c3d3ef6b4dc382abec04.json",
+					"name" : "merge",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/GITHUB/Sorting_comparison/new_clean/counting/cmake-build-debug",
-		"source" : "E:/GITHUB/Sorting_comparison/new_clean/counting"
+		"build" : "E:/GITHUB/Sorting_comparison/new_clean/merge/cmake-build-release",
+		"source" : "E:/GITHUB/Sorting_comparison/new_clean/merge"
 	},
 	"version" : 
 	{

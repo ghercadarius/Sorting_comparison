@@ -2,6 +2,11 @@ import tkinter, win32api, random, os, subprocess, time
 from tkinter import *
 from win32api import GetSystemMetrics
 from datetime import datetime
+from tkinter import ttk
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
+
 bg_colors = ["#C0C0C0", "#CD5C5C", "#A9A9A9"]
 font_name = ["Arial"]
 max_value = [1, 2, 4, 6, 9, 12, 15, 18] # for each x from max_value -> max_num = 1ex ( 10 ^ x)
@@ -12,25 +17,42 @@ w_ratio = width / (10 ** 7)
 # width and length scaled down to 0.8
 def window_exit():
     root.destroy() # close the root window and main program
+#TO RECONFIGURE
+def plot_graph(x_values, y_values):
+    fig, ax = plt.subplots()
+    ax.plot(x_values, y_values, marker='o')
+    ax.set_xlabel('Time (miliseconds)')
+    ax.set_ylabel('Number of Numbers')
+    ax.set_title('Sorting Time vs Number of Numbers')
 
-def redraw_graph(L, canvas, w, h):
-    # x[0] number of numbers x[1] runtime
-    canvas.delete("all")
-    # sort points based on runtime
-    L.sort(key = lambda x: x[0])
-    # base x coordonate for line - numbers
-    wa = w * 0.001
-    # base y coordonate for line - runtime
-    ha = h * 0.999
-    for el in L:
-        # process the new y for line based on nr of numbers
-        # nh = h - (0.064 * float(el[1] / ) * h)
-        nw = (float(el[0])) * w_ratio
-        nh = h - (float(el[1]) * 10 * h_ratio)  # * el[0]* w
-        print("COORD: ", nh, nw, " TIME: ", el[1])
-        canvas.create_line(wa, ha, nw, nh, fill = "green", width = 5)
-        wa = nw
-        ha = nh
+    return fig
+
+def update_graph(x_values, y_values, m_frame):
+    fig = plot_graph(x_values, y_values)
+    canvas = FigureCanvasTkAgg(fig, master=m_frame)
+    canvas_widget = canvas.get_tk_widget()
+    canvas_widget.grid(row=0, column=0, padx=10, pady=10)
+#TO RECONFIGURE
+
+
+# def redraw_graph(L, canvas, w, h):
+#     # x[0] number of numbers x[1] runtime
+#     canvas.delete("all")
+#     # sort points based on runtime
+#     L.sort(key = lambda x: x[0])
+#     # base x coordonate for line - numbers
+#     wa = w * 0.001
+#     # base y coordonate for line - runtime
+#     ha = h * 0.999
+#     for el in L:
+#         # process the new y for line based on nr of numbers
+#         # nh = h - (0.064 * float(el[1] / ) * h)
+#         nw = (float(el[0])) * w_ratio
+#         nh = h - (float(el[1]) * 10 * h_ratio)  # * el[0]* w
+#         print("COORD: ", nh, nw, " TIME: ", el[1])
+#         canvas.create_line(wa, ha, nw, nh, fill = "green", width = 5)
+#         wa = nw
+#         ha = nh
 
 
 def file_gen(type, sort_name) :
@@ -41,7 +63,7 @@ def file_gen(type, sort_name) :
 
     seconds = int(time.time() * 1000)
     # generate seed for random numbers based on seconds
-    n = random.randint(1, 10 ** 8)
+    n = random.randint(1, 10 ** 4)
     # number of numbers
     if type == "small":
         x = random.randint(0, 2)
@@ -72,25 +94,24 @@ def sort_table(sort_name, sort_type):
     sort_tab.geometry(f"{width}x{height}")
     sort_tab_gf = Frame(sort_tab) # insert a frame in the tab
     sort_tab_gf.pack() # display the frame
-    sort_canvas = tkinter.Canvas(sort_tab_gf, bg = bg_colors[2], width = 0.8 * width, height = 0.8 * height)
-    # create the drawing zone from the graph with a canvas
     canvw = 0.8 * width # set the width
     canvh = 0.8 * height # and the height
-    table = []
-    sort_canvas.create_line(0.02 * canvw, 0.98 * canvh, 0.9 * canvw, 0.1 * canvh, fill = "green", width = 5)
+    x_values = []
+    y_values = []
     # create the first line to modify
-    sort_canvas.pack() # draw the line
     def sort_draw(): # function to redraw
         # get runtime for a small type sort
         (time, numbers, digit_nr) = file_gen("small", sort_name)
         # write in window results
         sort_label.config(text = f"Numbers: {numbers} of {max_value[digit_nr]} digits\nTime in seconds: {time}")
         # add number of numbers and time in draw table to be redrawn
-        table.append((numbers, time))
+        y_values.append(numbers)
+        x_values.append(time)
         # redraw table
-        redraw_graph(table, sort_canvas, canvw, canvh)
+        #redraw_graph(table, sort_canvas, canvw, canvh)
+        update_graph(x_values, y_values, sort_tab_gf)
         # repeat
-        sort_label.after(100, sort_draw)
+        sort_label.after(1000, sort_draw)
 
     # create text label to write results
     sort_label = tkinter.Label(sort_tab, font = (font_name[0], int(0.02 * width)), background = bg_colors[0])
@@ -134,8 +155,8 @@ exit.place( x = width - 0.07 * width, y = 0.05 * height) # place exit button
 # create button for each sorting method
 # btn_radix = Button( root , text="Radix Sort" , command = radixS , font = ("Arial", int(0.012 * width)))
 # btn_radix.place( x = 0.05 * width , y = 0.2 * height )
-# btn_merge = Button( root , text="Merge Sort" , command = mergeS , font = ("Arial", int(0.012 * width)))
-# btn_merge.place( x = 0.20 * width , y = 0.2 * height )
+btn_merge = Button( root , text="Merge Sort" , command = lambda: mainsort("merge") , font = ("Arial", int(0.012 * width)))
+btn_merge.place( x = 0.20 * width , y = 0.2 * height )
 # btn_shell = Button( root , text="Shell Sort" , command = shellS , font = ("Arial", int(0.012 * width)))
 # btn_shell.place( x = 0.35 * width , y = 0.2 * height )
 # btn_quick = Button( root , text="Quick Sort" , command = quickS , font = ("Arial", int(0.012 * width)))

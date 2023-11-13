@@ -1,0 +1,15 @@
+# ninja log v5
+0	12	0	clean	66600bca832af6a2
+1	1146	7215881657076986	CMakeFiles/merge.dir/main.cpp.obj	fc4024cdcdbe286e
+1149	1939	7215881664922046	merge.exe	9dbd01c2fbbdc9dd
+0	17	0	clean	66600bca832af6a2
+4	800	7215882100801215	CMakeFiles/merge.dir/main.cpp.obj	fc4024cdcdbe286e
+801	1288	7215882105574451	merge.exe	9dbd01c2fbbdc9dd
+3	853	7215886518540444	CMakeFiles/merge.dir/main.cpp.obj	fc4024cdcdbe286e
+854	1381	7215886523695842	merge.exe	9dbd01c2fbbdc9dd
+0	14	0	clean	66600bca832af6a2
+3	1031	7215886597724531	CMakeFiles/merge.dir/main.cpp.obj	fc4024cdcdbe286e
+1032	1534	7215886602697465	merge.exe	9dbd01c2fbbdc9dd
+0	12	0	clean	66600bca832af6a2
+3	882	7215887052074537	CMakeFiles/merge.dir/main.cpp.obj	fc4024cdcdbe286e
+883	1205	7215887055235809	merge.exe	9dbd01c2fbbdc9dd
