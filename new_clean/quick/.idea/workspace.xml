@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="quick" targetName="quick" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebebdb24-0abe-4d75-ab79-6e199cfb2a75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/quick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-aa8475505ffd18188c57.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-b944e29dd13ab7e073ec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6ad303aa82f112657ccb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-14T17-42-33-0303.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-quick-Debug-55a66fb03370a8c2337a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2094c7ac5f155b8fd4b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quick.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/quick.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-71d57f9c9c2bfef94fcb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-27e706f7e28497283376.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-b80f6fc42b40da6e3dbf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2023-11-14T17-42-34-0231.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-quick-Release-6e710de625405c25cb0e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-2094c7ac5f155b8fd4b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/quick.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/output.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/quick.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/.idea/radix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/reply/cache-v2-eb4e89c0ce4a4a8993f1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5737f3579ea636628abe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-783e9cbc6ec4024cad00.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-14T17-44-54-0442.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/reply/target-radix-Debug-b62b7383748948141466.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2094c7ac5f155b8fd4b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/radix.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-debug/radix.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/reply/cache-v2-660d91a75f3f096e3f58.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-eb25e548f9b13f8091e7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-5c3f766f84f26f0ddaae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/reply/index-2023-11-14T17-44-55-0402.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/reply/target-radix-Release-41f1a7d4a873cd6bd111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-2094c7ac5f155b8fd4b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/clion-Release-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/radix.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/output.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/cmake-build-release/radix.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../radix/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/.idea/shell.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/reply/cache-v2-d40a73abe2eb9eb03746.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-60e83a3c782fea14fe44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-211cb46d06311883eeee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-14T18-07-32-0920.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/reply/target-shell-Debug-4dd9768b9d4cfca8defb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2094c7ac5f155b8fd4b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/CMakeFiles/shell.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-debug/shell.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/reply/cache-v2-c5e82cc5e5d1bedba4e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-25d9358b748fd4de122d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-0178249bbe15a2e6841d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/reply/index-2023-11-14T18-07-33-0912.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/reply/target-shell-Release-13fd3fbf3e1ae4eb8fe0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-2094c7ac5f155b8fd4b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/clion-Release-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/CMakeFiles/shell.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/output.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/cmake-build-release/shell.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shell/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-debug/CMakeFiles/merge.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-debug/CMakeFiles/merge.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-debug/merge.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-debug/merge.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-release/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-release/CMakeFiles/merge.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-release/CMakeFiles/merge.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-release/merge.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-release/merge.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/cmake-build-release/output.out" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/cmake-build-release/output.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../merge/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YB0NihUGjSNjQrRecBsFe6Q2Ia" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quick" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quick" TARGET_NAME="quick" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quick" RUN_TARGET_NAME="quick">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebebdb24-0abe-4d75-ab79-6e199cfb2a75" name="Changes" comment="" />
+      <created>1699983626858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699983626858</updated>
+      <workItem from="1699983628788" duration="218000" />
+      <workItem from="1699983856632" duration="640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>

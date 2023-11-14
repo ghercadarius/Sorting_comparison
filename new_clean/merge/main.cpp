@@ -67,7 +67,7 @@ int main(int argc, char* argv[]) {
     }
     cout << "GEN\n";
     auto start = high_resolution_clock::now();
-    merge_sort(1, numbers.size() - 1);
+    merge_sort(0, numbers.size() - 1);
     auto stop = high_resolution_clock::now();
     cout << "END\n";
     ofstream g("output.out", ios::ate);

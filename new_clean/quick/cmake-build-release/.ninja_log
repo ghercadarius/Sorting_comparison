@@ -1,0 +1,5 @@
+# ninja log v5
+0	9	0	clean	66600bca832af6a2
+0	8	0	clean	66600bca832af6a2
+0	429	7216869724121959	CMakeFiles/quick.dir/main.cpp.obj	5a70a3632fb7c1ad
+430	712	7216869726894370	quick.exe	79f51bfe9348bf93
